@@ -12,10 +12,13 @@
 
             <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    android:background="?colorPrimaryDark"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize">
                 <ImageView
                         android:id="@+id/hero_image"
+                        android:tint="?colorOnPrimary"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         app:srcCompat="@drawable/logo"
