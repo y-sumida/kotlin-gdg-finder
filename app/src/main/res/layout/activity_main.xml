@@ -18,7 +18,7 @@
                     android:layout_height="?attr/actionBarSize">
                 <ImageView
                         android:id="@+id/hero_image"
-                        android:tint="?colorOnPrimary"
+                        android:tint="?colorOnSecondary"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         app:srcCompat="@drawable/logo"
